@@ -51,7 +51,11 @@ const Products = () => {
                 <h3 className="font-display text-lg font-medium text-primary mb-5">{sub.name}</h3>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
                   {sub.products.map((product) => (
-                    <ProductCard key={product.name} {...product} />
+                    <ProductCard 
+                      key={product.name} 
+                      name={product.name}
+                      image={product.image}
+                    />
                   ))}
                 </div>
               </div>

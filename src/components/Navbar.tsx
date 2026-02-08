@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.jpeg";
 
 const navItems = [
   { label: "Home", path: "/" },
@@ -16,7 +17,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
         <Link to="/" className="flex items-center gap-3">
-          <img src="src/assets/logo.jpeg" alt="Craftybliss" className="w-10 h-10" />
+          <img src={logo} alt="Craftybliss" className="w-10 h-10" />
           <span className="font-display text-2xl font-bold text-primary">
             Craftybliss
           </span>
