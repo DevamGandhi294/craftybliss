@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 50% 97%;
+    --foreground: 20 20% 18%;
+
+    --card: 30 40% 98%;
+    --card-foreground: 20 20% 18%;
+
+    --popover: 30 40% 98%;
+    --popover-foreground: 20 20% 18%;
+
+    --primary: 350 50% 65%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 30 30% 92%;
+    --secondary-foreground: 20 20% 25%;
+
+    --muted: 30 20% 94%;
+    --muted-foreground: 20 10% 50%;
+
+    --accent: 38 60% 70%;
+    --accent-foreground: 20 20% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 30 25% 88%;
+    --input: 30 25% 88%;
+    --ring: 350 50% 65%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 30 40% 96%;
+    --sidebar-foreground: 20 15% 30%;
+    --sidebar-primary: 350 50% 65%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 30 30% 92%;
+    --sidebar-accent-foreground: 20 20% 25%;
+    --sidebar-border: 30 25% 88%;
+    --sidebar-ring: 350 50% 65%;
+
+    /* Custom tokens */
+    --gold: 38 60% 55%;
+    --gold-light: 38 60% 85%;
+    --blush: 350 40% 90%;
+    --cream: 35 50% 95%;
+    --warm-brown: 20 30% 35%;
+  }
+
+  .dark {
+    --background: 20 20% 10%;
+    --foreground: 30 20% 92%;
+    --card: 20 20% 12%;
+    --card-foreground: 30 20% 92%;
+    --popover: 20 20% 12%;
+    --popover-foreground: 30 20% 92%;
+    --primary: 350 50% 65%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 20 15% 18%;
+    --secondary-foreground: 30 20% 90%;
+    --muted: 20 15% 18%;
+    --muted-foreground: 30 10% 60%;
+    --accent: 38 50% 50%;
+    --accent-foreground: 30 20% 92%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 20 15% 22%;
+    --input: 20 15% 22%;
+    --ring: 350 50% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(38 60% 55%), hsl(38 80% 70%));
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
