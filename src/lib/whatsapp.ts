@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "919825562140"; // Replace with actual number
+const WHATSAPP_NUMBER = "919664662140"; // Replace with actual number
 
 export const getWhatsAppLink = (message?: string) => {
   const defaultMessage = "Hi Craftybliss, I'm interested in your handmade gifts!";
