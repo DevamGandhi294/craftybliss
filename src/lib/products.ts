@@ -105,37 +105,37 @@
       {
         name: "Flower Bouquet",
         products: products([
-          ["Rose Bouquet", bouquet101], // Replace catBouquets with actual product image
-          ["Mixed Flower Bouquet", bouquet102],
-          ["Sunflower Bouquet", bouquet103],
-          ["Daisy Bouquet", bouquet104],
-          ["Lily Bouquet", bouquet105],
-          ["Tulip Bouquet", bouquet106],
-          ["Carnation Bouquet", bouquet107],
-        ]),
-      },
-      {
-        name: "Chocolate Bouquet",
-        products: products([
+          ["Daisy Bouquet", bouquet101],
+          ["One Daisy Bouquet", bouquet102],
+          ["Rose Bouquet", bouquet103],
+          ["Round Rose Bouquet", bouquet104],
+          ["White Roses Bouquet", bouquet105],
+          ["Pipe Cleaner Sunflower Bouquet", bouquet106],
+          ["Pipe Cleaner mix Bouquet", bouquet107],
+      //   ]),
+      // },
+      // {
+      //   name: "Chocolate Bouquet",
+      //   products: products([
           ["Classic Choco Bouquet", bouquet201],
           ["Premium Chocolate Bouquet", bouquet202],
-          ["Classic Choco Bouquet", bouquet203],
-          ["Premium Chocolate Bouquet", bouquet204],
-          ["Classic Choco Bouquet", bouquet205],
-          ["Premium Chocolate Bouquet", bouquet206],
-        ]),
-      },
-      {
-        name: "Customised Bouquet",
-        products: products([
-          ["Custom Photo Bouquet", bouquet301],
-        ]),
-      },
-      {
-        name: "Pipe Cleaner Bouquet",
-        products: products([
-          ["Pipe Cleaner Rose Bouquet", catBouquets],
-          ["Mini Pipe Cleaner Bouquet", catBouquets],
+          ["Custmize Gift Bouquet", bouquet203],
+          ["Custom Bouquet", bouquet204],
+          ["Hot Wheels Bouquet", bouquet205],
+          ["Kinderjoy Bouquet", bouquet206],
+      //   ]),
+      // },
+      // {
+      //   name: "Customised Bouquet",
+      //   products: products([
+          ["Photo Bouquet", bouquet301],
+      //   ]),
+      // },
+      // {
+      //   name: "Pipe Cleaner Bouquet",
+      //   products: products([
+          // ["Pipe Cleaner Rose Bouquet", catBouquets],
+          // ["Mini Pipe Cleaner Bouquet", catBouquets],
         ]),
       },
     ],
@@ -154,28 +154,28 @@
       {
         name: "For Her",
         products: products([
-          ["Self-Care Hamper", hamper101],
-          ["Luxury Spa Hamper", hamper102],
-          ["Birthday Hamper for Her", hamper103],
-          ["Customised Hamper for Her", hamper104],
-          ["Customised Hamper for Him", hamper105],
-          ["Customised Hamper for Kids", hamper106],
+          ["Mini Hamper", hamper101],
+          ["Mini Hamper -2", hamper102],
+          ["Premium tray Hamper", hamper103],
+          ["Bag Hamper", hamper104],
+          ["Customised Hamper for Her", hamper105],
+          ["Custom Hamper", hamper106],
         ]),
       },
       {
         name: "For Him",
         products: products([
           ["Gentleman's Hamper", hamper201],
-          ["Grooming Hamper", hamper202],
+          ["Classic Hamper", hamper202],
         ]),
       },
       {
         name: "Special Occasion",
         products: products([
-          ["Anniversary Hamper", hamper301],
-          ["Festival Gift Hamper", hamper302],
-          ["Thank You Hamper", hamper303],
-          ["Customised Hamper", hamper304],
+          ["Mother;s Day", hamper301],
+          ["Father's Day", hamper302],
+          ["Father's Day-2", hamper303],
+          ["Rakshabandhan", hamper304],
         ]),
       },
     ],
@@ -193,19 +193,19 @@
       {
         name: "Photo Frame",
         products: products([
-          ["Classic Photo Frame", frame101],
-          ["Collage Frame", frame102],
-          ["Memory Frame", frame103],
-          ["Custom Photo Frame", frame104],
-          ["Photo Frame with Glass", frame105],
+          ["Mini Frame", frame101],
+          ["Large Frame", frame102],
+          ["Medium Frame", frame103],
+          ["Classic Frame", frame104],
+          ["Gray Bordered Frame", frame105],
         ]),
       },
       {
         name: "Hotwheels Frame",
         products: products([
-          ["Hotwheels Display Frame", frame201],
-          ["Custom Car Frame", frame202],
-          ["Hotwheels Display Frame with Glass", frame203],
+          ["Porsche Frame", frame201],
+          ["Toyota Frame", frame202],
+          ["Logo Car Frame", frame203],
         ]),
       },
     ],
@@ -225,7 +225,7 @@
         name: "Resin Frames",
         products: products([
           ["Floral Resin Frame", resin101],
-          ["Couple Resin Frame", resin102],
+          ["Resin Photo Frame", resin102],
         ]),
       },
       {
