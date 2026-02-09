@@ -53,6 +53,16 @@
   import resin101 from "@/assets/resin/101.jpeg";
   import resin102 from "@/assets/resin/102.jpeg";
 
+  import resin201 from "@/assets/resin/201.jpeg";
+  import resin202 from "@/assets/resin/202.jpeg";
+  import resin203 from "@/assets/resin/203.jpeg";
+  import resin204 from "@/assets/resin/204.jpeg";
+  import resin205 from "@/assets/resin/205.jpeg";
+  import resin206 from "@/assets/resin/206.jpeg";
+  import resin207 from "@/assets/resin/207.jpeg";
+  import resin208 from "@/assets/resin/208.jpeg";
+  import resin209 from "@/assets/resin/209.jpeg";
+
   export interface Product {
     name: string;
     image: string; // Required: Each product must have its own image
@@ -231,18 +241,24 @@
       {
         name: "Keychains",
         products: products([
-          ["Flower Resin Keychain", catResin],
-          ["Name Resin Keychain", catResin],
-          ["Photo Resin Keychain", catResin],
+          ["Ganesha keychain", resin201],
+          ["Photo keychain-1", resin202],
+          ["Flower keychain custom", resin203],
+          ["Photo keychain-2", resin204],
+          ["Alphabet keychain", resin205],
+          ["Flower keychains", resin206],
+          ["Custom keychain", resin207],
+          ["P letter Keychain", resin208],
+          ["Couple Keychain", resin209],
         ]),
       },
-      {
-        name: "Resin Art",
-        products: products([
-          ["Resin Coasters", catResin],
-          ["Resin Wall Art", catResin],
-        ]),
-      },
+      // {
+      //   name: "Resin Art",
+      //   products: products([
+      //     ["Resin Coasters", catResin],
+      //     ["Resin Wall Art", catResin],
+      //   ]),
+      // },
     ],
   };
 

@@ -22,7 +22,7 @@ const Contact = () => (
             </div>
             <h2 className="font-display text-xl font-semibold">Surat, Gujarat</h2>
             <p className="text-muted-foreground text-sm max-w-sm">
-              We're based in Surat and serve customers across India. Delivery is free for nearby locations — other delivery details will be shared on WhatsApp.
+              We're based in Surat. Delivery is free for nearby locations — other delivery details will be shared on WhatsApp.
             </p>
           </div>
 

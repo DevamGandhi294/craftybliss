@@ -25,7 +25,7 @@ const ProductCard = ({ name, image }: ProductCardProps) => (
         className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground text-sm font-medium rounded-md px-4 py-2.5 hover:opacity-90 transition-opacity"
       >
         <MessageCircle size={16} />
-        Enquire on WhatsApp
+        Enquire 
       </a>
     </div>
   </div>
