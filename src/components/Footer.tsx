@@ -9,7 +9,7 @@ const Footer = () => (
 
       <div className="flex gap-5 mt-2">
         <a
-          href="https://www.instagram.com/dharaptl_1717?igsh=OXpzNHpybmdyZnhq"
+          href="https://www.instagram.com/craftybliss1728?igsh=MXgxb3k2enh3cnkzNQ%3D%3D&utm_source=qr"
           target="_blank"
           rel="noopener noreferrer"
           className="text-muted-foreground hover:text-primary transition-colors"
